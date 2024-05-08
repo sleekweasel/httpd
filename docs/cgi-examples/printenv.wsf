@@ -2,8 +2,8 @@
 
 ' To permit this cgi, replace ' on the first line above with the
 ' appropriate shebang, f.e. '!c:/windows/system32/cscript -nologo
-' You will also need to uncomment lines matching cgid and cgisock
-' in the config and restart (or HUP) the server.
+' You will also need to uncomment lines matching cgid_module and
+' possibly cgisock in the config and restart (or HUP) the server.
 '
 ' ***** !!! WARNING !!! *****
 ' This script echoes the server environment variables and therefore
